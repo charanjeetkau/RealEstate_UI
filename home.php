@@ -19,14 +19,14 @@ include "nav.php";
 
         <div class="d-flex ms-2">
           <form action="/search/" method="get" style="width: 80%">
-            <div class="input-group mb-3">
+            <div class="input-group mb-3 onHover">
               <input
                 type="text"
                 name="search"
                 class="form-control"
                 placeholder="Enter Location or City"
               />
-              <button type="submit" class="btn" style="background-color:#83BAE3">
+              <button type="submit" class="btn " style="background-color:#83BAE3">
                 <i class="fa fa-search"></i>
               </button>
             </div>
@@ -37,13 +37,13 @@ include "nav.php";
             data-bs-toggle="collapse"
             data-bs-target="#filter"
             aria-expanded="false"
-            class="bg-dark btn filter text-light btn-toggle collapsed"
+            class="bg-dark btn filter text-light btn-toggle collapsed "
             style="
               width: fit-content;
               height: min-content;
               border-radius: 3px;
               margin-left: 4%;">
-            <i class="fa fa-filter px-1" aria-hidden="true"></i><span class="s-txt">Filter</span>
+            <i class="fa fa-filter px-1 " aria-hidden="true"></i><span class="s-txt">Filter</span>
           </button>
 
         </div>
